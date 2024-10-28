@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+
+  /* ========================         navbar start from here     ======================= */
+  
+  #navbar {
+    position: fixed;
+    width: 100%;
+  background-image: url(./images/nav.jpg);
+    background-color: transparent;
+  }
+  #navbar nav {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #navbar nav ul {
+    display: flex;
+    /* /* margin-left: 60%; */
+    gap: 20px;
+    list-style: none;
+  }
+  
+  #navbar nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+  }
+  
+  #navbar nav h1 {
+    color: orangered;
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 10px;
+  }
+  
+  #navbar nav ul li {
+    padding: 20px;
+  }
+  
+  #navbar nav ul li:hover {
+    background-color: orangered;
+    cursor: grab;
+  }
+  
+  #navbar nav ul li:hover a {
+    color: white;
+  }
+  
+
+
+          
+  /* <!--================== main section start from here================================ --> */
+
+
+  #home {
+
+    background-image: url(./images/coffee1.jpg);
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-position: bottom;
+  }
+
+  #home .hometext {
+    padding-left: 80px;
+    padding-top: 17%;
+    color: white;
+  }
+
+  
+  #home .hometext .coffe-shop  {
+font-size: 80px;
+
+  }
+
+    
+  #home .hometext .btn {
+
+background-color: orangered;
+width: 140px;
+height: 45px;
+border-radius: 20px;
+font-size: 18px;
+font-weight: bolder;
+
+  }
+
+  #home .hometext .btn:hover {
+    background-color: transparent;
+    color: white;
+    background-color: black;
+  
+  }
+
+  /* about cording start from here */
+  #about .about-text {
+    padding-top: 20%;
+  }
