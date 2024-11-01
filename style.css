@@ -79,7 +79,7 @@ font-size: 80px;
   }
 
     
-  #home .hometext .btn {
+  .btn {
 
 background-color: orangered;
 width: 140px;
@@ -90,7 +90,7 @@ font-weight: bolder;
 
   }
 
-  #home .hometext .btn:hover {
+.btn:hover {
     background-color: transparent;
     color: white;
     background-color: black;
@@ -99,5 +99,173 @@ font-weight: bolder;
 
   /* about cording start from here */
   #about .about-text {
-    padding-top: 20%;
+    padding-top: 15%;
+    padding-left: 40px;
   }
+
+  #about .about-text h1 {
+    font-size: 40px;
+  }
+
+  
+  #about .about-text h4 {
+    font-size: 24px;
+  }
+
+
+    
+  #about .btn {
+  
+    margin-left: 140px;
+  }
+
+  .about-image {
+    width: 42%;
+    height: 70%;
+    border: 2px solid red;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 550px;
+    background-image: url(./images/about.avif);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+ 
+  }
+
+  /* about cording end here  */
+
+  /* <!--================== coffes start from here================================ --> */
+
+  #coffees {
+    width: 100%;
+    height: 100vh;
+    padding-top: 90px;
+    }
+
+  #coffees .text-coffes {
+    text-align: center;
+    font-size: 35px;
+  }
+
+  #coffees .box-top {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    color: white;
+    font-weight: bolder;
+    margin-top: 50px;
+  
+  }
+
+  #coffees .box-top .box-4 {
+    width: 200px;
+    height: 350px;
+    border: 4px solid orangered;
+    display: grid;
+justify-items: center;
+background-color:  #242c2f;;
+text-align: center;
+  }
+
+  
+  #coffees .box-top .box-4 .box-5 {
+width: 180px;
+height: 180px;
+border: 3px solid white;
+margin: 7px;
+margin-top: 8px;
+
+
+
+}
+
+ 
+#coffees .box-top .box-4 .box-5 img {
+  width: 100%;
+  height: 177px ;
+
+}
+
+
+        
+/* <!--================== blog start from here================================ --> */
+#no-work {
+  padding-top: 90px;
+  text-align: center;
+  
+  
+}
+#no-work h1 {
+  font-size: 40px;
+}
+
+.blog-main {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-evenly;
+
+}
+
+.blog-main .blog-top2 {
+  width: 480px;
+  height: 500px;
+  border: 2px solid orangered;
+
+
+ 
+}
+/* 
+#no-work .blog-main .blog-top2 .blog-img{
+  width:100%;
+  height:60%;
+  border: 2px solid orangered;
+} */
+
+#no-work .blog-main .blog-top2 .blog-img img {
+  background-size: cover;
+  width: 100%;
+}
+
+
+
+
+        
+/* <!--================== conatct section start from here================================ --> */
+   
+
+#contact .contact-2 {
+  padding-top: 120px;
+}
+
+#contact .contact-2 .contact-input {
+  text-align: center;
+  
+}
+
+
+
+#contact .contact-2 .contact-input h1 {
+font-size: 50px;
+  
+}
+
+
+
+#contact .contact-2 .contact-input .submit {
+color: yellow;
+background-color: orangered;
+border: none;
+}
+
+
+/* <!-- footter work start from here  --> */
+
+#main-footer {
+  width: 100%;
+  height: 250px;
+  border: 2px solid black;
+  margin-top: 50px;
+  text-align: center;
+}
