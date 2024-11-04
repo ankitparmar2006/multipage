@@ -9,6 +9,7 @@
   
   #navbar {
     position: fixed;
+    
     width: 100%;
   background-image: url(./images/nav.jpg);
     background-color: transparent;
@@ -98,9 +99,12 @@ font-weight: bolder;
   }
 
   /* about cording start from here */
+  
+  
   #about .about-text {
     padding-top: 15%;
     padding-left: 40px;
+
   }
 
   #about .about-text h1 {
@@ -123,6 +127,7 @@ font-weight: bolder;
     width: 42%;
     height: 70%;
     border: 2px solid red;
+    
     position: absolute;
     margin-top: 120px;
     margin-left: 550px;
@@ -166,10 +171,11 @@ font-weight: bolder;
 justify-items: center;
 background-color:  #242c2f;;
 text-align: center;
+
   }
 
   
-  #coffees .box-top .box-4 .box-5 {
+  #coffees .box-top .box-4 .box-5 img{
 width: 180px;
 height: 180px;
 border: 3px solid white;
@@ -181,11 +187,6 @@ margin-top: 8px;
 }
 
  
-#coffees .box-top .box-4 .box-5 img {
-  width: 100%;
-  height: 177px ;
-
-}
 
 
         
@@ -290,4 +291,40 @@ border: none;
   background-color: orangered;
   border: none;
   color: yellow;
+}
+
+
+/* responsive work start from here */
+
+
+
+@media (max-width:450px) {
+  
+  #about .about-image{
+    margin-left:90px;
+    width: 60%;
+    height: 30%;
+    margin-top: 160px;
+  }
+  #about .about-text p {
+    margin-top: 130px;
+  }
+
+
+  #coffees .box-top {
+    
+    grid-template-columns: auto auto;
+  } 
+
+
+  
+  #no-work {
+  
+  
+    margin-top: 399px;
+    
+  }
+
+
+
 }
