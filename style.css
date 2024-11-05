@@ -316,7 +316,13 @@ border: none;
     grid-template-columns: auto auto;
   } 
 
+  
+  .about-text h4 {
+    padding-left: 60px;
+  }
 
+
+/* our blog responsive */
   
   #no-work {
   
@@ -324,6 +330,33 @@ border: none;
     margin-top: 399px;
     
   }
+
+/* our blog responsive */
+
+
+.blog-main {
+
+  grid-template-columns: auto ;
+
+
+}
+
+
+#no-work .blog-main .blog-top2 .blog-img img {
+  
+  width: 100%;
+}
+
+
+.blog-main .blog-top2 {
+  width: 80%;
+  height: 95%;
+  margin-left: 40px;
+  
+ 
+}
+
+
 
 
 
